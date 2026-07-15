@@ -1,10 +1,10 @@
-function Transactions() {
+function Transaction() {
 
   return (
 
     <div>
 
-      <h2>Transactions</h2>
+      <h2>transactions</h2>
 
       <p>No transactions found.</p>
 
@@ -13,4 +13,4 @@ function Transactions() {
   );
 }
 
-export default Transactions;
+export default Transaction;

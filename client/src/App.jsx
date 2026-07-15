@@ -8,7 +8,7 @@ import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import Portfolio from "./pages/Portfolio";
 import Watchlist from "./pages/Watchlist";
-import Transactions from "./pages/Transactions";
+import Transaction from "./pages/Transaction";
 
 function App() {
   return (
@@ -42,8 +42,8 @@ function App() {
         />
 
         <Route
-          path="/transactions"
-          element={<Transactions />}
+          path="/transaction"
+          element={<Transaction />}
         />
       </Routes>
 
